@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of pddholdings.com /.well-known/ paths
+host: https://pddholdings.com
+note: >-
+  Pinduoduo's merchant Open Platform (open.pinduoduo.com) and the consumer
+  storefront (pinduoduo.com) are geo-restricted and were not reachable from the
+  enrichment environment; only the corporate holding host pddholdings.com could
+  be probed. Every probed .well-known path returned 404 (no document present).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404

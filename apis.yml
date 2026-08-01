@@ -1,8 +1,30 @@
 aid: pinduoduo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pinduoduo.png
 name: Pinduoduo
-description: 'Pinduoduo is a company surfaced as a portfolio company of hongshan and added to the API
-  Evangelist network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Pinduoduo is a China-focused social commerce and agriculture-first e-commerce
+  marketplace operated by PDD Holdings (Nasdaq: PDD), the multinational commerce
+  group that also runs the cross-border marketplace Temu. Pinduoduo pioneered the
+  "team purchase" (group-buy) model, connecting hundreds of millions of consumers
+  directly with farmers, manufacturers, and merchants at scale. For developers,
+  Pinduoduo runs a merchant-facing Open Platform (open.pinduoduo.com) that exposes
+  gateway-style APIs for goods, orders, logistics, promotions, and store
+  management to ISVs and merchant tools; that platform is geo-restricted to
+  mainland China and was not directly reachable for artifact capture in this pass.
+  This profile was surfaced as a portfolio company of Hongshan (formerly Sequoia
+  Capital China) and enriched with verifiable corporate identity and domain
+  security posture.
 url: https://raw.githubusercontent.com/api-evangelist/pinduoduo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Technology
+- E-Commerce
+- Marketplace
+- Retail
+- Social Commerce
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pinduoduo-domain-security.yml
 - type: Website
   url: https://pddholdings.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
