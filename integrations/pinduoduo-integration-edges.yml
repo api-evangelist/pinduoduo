@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/pinduoduo/integrations
+- https://n8n.io/integrations/pinduoduo/
+- https://composio.dev/toolkits/pinduoduo
+- https://monid.ai/tools/pinduoduo
+checked:
+- https://composio.dev/toolkits/pinduoduo
+- https://monid.ai/tools/pinduoduo
+- https://n8n.io/integrations/pinduoduo/
+- https://zapier.com/apps/pinduoduo/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
